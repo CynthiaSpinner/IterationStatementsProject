@@ -41,10 +41,10 @@ namespace IterationStatements
             Console.WriteLine("");
             Console.WriteLine("Decrease:");
 
-            // for loop
+            // for loop 
             for (int i = 199; i <= (numbers.Count)&& i >= 0; i--)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(numbers[i]);
             }
 
             //------------End of exercise
